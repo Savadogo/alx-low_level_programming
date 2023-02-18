@@ -21,7 +21,7 @@ int main(void)
 	}
 	else
 	{
-		if (last_digit==0)
+		if (last_digit == 0)
 		{
 			printf("Last digit of %i is %i\n", n, last_digit);
 		}
