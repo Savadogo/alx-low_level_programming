@@ -5,7 +5,7 @@
  * main - Print sign of number
  * Return: 0
  */
-int main(void)
+unsigned int main(void)
 {
 	char to_print[] = "_putchar";
 	int i;
