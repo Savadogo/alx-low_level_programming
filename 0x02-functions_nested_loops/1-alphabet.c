@@ -3,7 +3,7 @@
  * main - Print sign of number
  * Return: 0
  */
-int print_alphabet(void)
+void print_alphabet(void)
 {
         int i;
 
