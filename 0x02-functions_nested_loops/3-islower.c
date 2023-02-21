@@ -4,11 +4,11 @@
  * Return - int
  */
 
-int _islower (int c)
+int _islower(int c)
 {
 	int r = 0;
 
-	if(c >= 97 && c <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		r = 1;
 	}
