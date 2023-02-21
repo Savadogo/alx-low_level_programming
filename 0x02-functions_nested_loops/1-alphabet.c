@@ -3,8 +3,15 @@
  * main - Print sign of number
  * Return: 0
  */
-int main(void)
+int print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+        int i;
+
+        for (i = 0; i < 26; i++)
+        {
+                _putchar('a' + i);
+        }
+        _putchar('\n');
+        return (0);
 }
+~     
