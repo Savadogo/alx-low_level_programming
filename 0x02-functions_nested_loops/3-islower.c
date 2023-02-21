@@ -4,7 +4,7 @@
  * Return - int
  */
 
-int _islower(int c)
+int _islower (int c)
 {
 	int r = 0;
 
