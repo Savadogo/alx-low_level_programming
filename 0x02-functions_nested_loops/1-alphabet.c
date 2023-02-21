@@ -5,12 +5,6 @@
  */
 int main(void)
 {
-	int i;
-
-	for (i = 0; i < 26; i++)
-	{
-		_putchar('a' + i);
-	}
-	_putchar('\n');
+	print_alphabet();
 	return (0);
 }
