@@ -11,7 +11,7 @@ int main(void)
 	char to_print[] = "_putchar";
 	unsigned int i;
 
-	for (i = 0; i < strlen(to_print) - 1; i++)
+	for (i = 0; i < strlen(to_print) ; i++)
 	{
 		putchar(to_print[i]);
 	}
