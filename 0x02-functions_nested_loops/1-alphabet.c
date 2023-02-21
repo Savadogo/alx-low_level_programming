@@ -1,15 +1,16 @@
 #include "main.h"
 /**
- * main - Print sign of number
+ * print_alphabet - print the alphabet
  * Return: 0
  */
+
 void print_alphabet(void)
 {
-        int i;
+	int i;
+	for (i = 0; i < 26; i++)
+	{
+		_putchar('a' + i);
+	}
+	_putchar('\n');
+}
 
-        for (i = 0; i < 26; i++)
-        {
-                _putchar('a' + i);
-        }
-        _putchar('\n');
-}     
