@@ -5,10 +5,11 @@
  * main - Print sign of number
  * Return: 0
  */
-unsigned int main(void)
+
+int main(void)
 {
 	char to_print[] = "_putchar";
-	int i;
+	unsigned int i;
 
 	for (i = 0; i < strlen(to_print) - 1; i++)
 	{
