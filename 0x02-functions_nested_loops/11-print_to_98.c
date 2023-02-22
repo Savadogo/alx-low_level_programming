@@ -27,6 +27,5 @@ void print_to_98(int n)
 			s = 1;
 		}
 	} while (s != 1);
-	_putchar('\n');
 }
 
