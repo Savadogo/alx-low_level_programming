@@ -34,7 +34,7 @@ void print_times_table(int n)
 					{
 						_putchar(' ');
 					}
-					else if (i * (j + 1) < 10)
+					if (i * (j + 1) < 10)
 					{
 						_putchar(' ');
 					}
