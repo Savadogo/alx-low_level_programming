@@ -14,11 +14,7 @@ void print_times_table(int n)
 			for (j = 0; j < n + 1; j++)
 			{
 				m = i * j;
-				if (m >= 10)
-				{
-					_putchar((m / 10) + '0');
-				}
-				_putchar((m % 10) + '0');
+				printf("%i", m);
 				if (j < n)
 				{
 					if (i * (j + 1) >= 100)
