@@ -6,10 +6,9 @@
  * @n: input integer
  */
 
-void add(int n)
+void print_to_98(int n)
 {
-	do
-	{
+	do {
 		printf(n);
 		if (n < 98)
 		{
@@ -21,6 +20,6 @@ void add(int n)
 			n--;
 			printf(", ");
 		}
-	}while (n != 98)
+	} while (n != 98)
 }
 
