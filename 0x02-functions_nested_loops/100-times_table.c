@@ -23,7 +23,7 @@ void print_times_table(int n)
 						_putchar(',');
 						_putchar(' ');
 					}
-					else if (i * (j + 1) >= 10)
+					else if ((i * (j + 1) >= 10) && (i * (j + 1) < 100))
 					{
 						_putchar(',');
 						_putchar(' ');
