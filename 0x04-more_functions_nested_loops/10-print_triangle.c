@@ -1,26 +1,26 @@
 #include "main.h"
 /**
  * print_triangle - Print a trinagle with a number of characters
- * @n : number of caracter to use
+ * @size : number of caracter to use
  */
 
-void print_triangle(int n)
+void print_triangle(int size)
 {
 	int i, j;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < size; i++)
 	{
-		for (j = 0; j < n - i - 1;j++)
+		for (j = 0; j < size - i - 1;j++)
 		{
 			_putchar(' ');
 		}
-		for (j = n - i - 1; j < n; j++)
+		for (j = size - i - 1; j < size; j++)
 		{
 			_putchar(35);
 		}
 		_putchar('\n');
 	}
-	if (n <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
