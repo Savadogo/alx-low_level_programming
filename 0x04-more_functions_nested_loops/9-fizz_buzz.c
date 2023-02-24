@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * main - Print a fuzz buzz function
+ * Return: 0
  */
 
 int main(void)
