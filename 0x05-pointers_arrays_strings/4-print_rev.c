@@ -13,11 +13,11 @@ void print_rev(char *s)
 		_putchar(*(s + n));
 		n++;
 	}
-	for (i = 0; i < n; i++)
-	{
-		_putchar(*(s + i));
-		i++;
-	}
+	/*for (i = 0; i < n; i++)
+	*{
+*		_putchar(*(s + i));
+*		i++;
+	}*/
 	_putchar('\n');
 }
 
