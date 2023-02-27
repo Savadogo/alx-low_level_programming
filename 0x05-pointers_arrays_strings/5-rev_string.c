@@ -5,7 +5,8 @@
  */
 void print_rev(char *s)
 {
-	int i, n, *tmp;
+	int i, n;
+	char tmp;
 
 	n = 0;
 	while (*(n + s) != '\0')
@@ -14,9 +15,9 @@ void print_rev(char *s)
 	}
 	for (i = 0; i < n / 2; i++)
 	{
-		tmp = s + i;
-		s + i = s + n - i - 1;
-		s + n - i - 1 = tmp;
+		tmp = *(s + i);
+		*(s + i) = *(s + n - i - 1);
+		*(s + n - i - 1) = tmp;
 	}
 	_putchar('\n');
 }
