@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_rev - fucntion that print a string in reverse
+ * print_rev - fucntion that print a string in reverse
  * @s: string to print
  */
 void print_rev(char *s)
@@ -8,7 +8,7 @@ void print_rev(char *s)
 	int i, n;
 
 	n = 0;
-	while (*(n + s)!='\n')
+	while (*(n + s) != '\n')
 	{
 		n++;
 	}
