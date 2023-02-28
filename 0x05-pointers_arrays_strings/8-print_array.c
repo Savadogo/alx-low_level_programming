@@ -12,6 +12,11 @@ void print_array(int *a, int n)
 	while (i < n)
 	{
 		_putchar(*(a + i));
+		if (i < n - 1)
+		{
+			_putchar(",");
+			_putchar(" ");
+		}
 		i++;
 	}
 
