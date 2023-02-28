@@ -14,11 +14,11 @@ void puts_half(char *str)
 	}
 	if (n % 2 == 0)
 	{
-		m = n / 2 - 1;
+		m = n / 2;
 	}
 	else
 	{
-		m = (n - 1) / 2 - 1;
+		m = (n - 1) / 2;
 	}
 	while (m < n)
 	{
