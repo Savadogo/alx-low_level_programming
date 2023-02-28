@@ -11,7 +11,7 @@ void print_array(int *a, int n)
 	i = 0;
 	while (i < n)
 	{
-		_putchar(*(a + i) + '0');
+		_putchar((*(a + i)) + '0');
 		i++;
 	}
 
