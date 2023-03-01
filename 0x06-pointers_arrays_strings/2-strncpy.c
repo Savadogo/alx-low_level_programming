@@ -17,6 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 		*(dest + m) = *(src + m);
 		m++;
 	}
+	*(dest + m) = *(src + m);
 	return (dest);
 }
 
