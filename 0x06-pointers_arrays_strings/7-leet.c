@@ -21,8 +21,8 @@ char *leet(char *str)
 				*(str + i) = enc[m];
 				break;
 			}
-			m++;
 		}
+		i++;
 	}
 	return (str);
 }
