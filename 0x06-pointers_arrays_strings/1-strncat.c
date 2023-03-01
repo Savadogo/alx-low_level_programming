@@ -26,7 +26,7 @@ char *_strcat(char *dest, char *src, int n)
 	{
 		n = i;
 	}
-	for (i = 0;i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		*(dest + n + m) = *(src + m);
 	}
