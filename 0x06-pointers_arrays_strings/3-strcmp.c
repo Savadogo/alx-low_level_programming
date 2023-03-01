@@ -13,7 +13,11 @@ int _strcmp(char *s1, char *s2)
 	g = 0;
 	while (*(s1 + n) != '\0' && *(s2 + n) != '\0')
 	{
-		g += *(s1 + n) - *(s2 + n);
+		g = *(s1 + n) - *(s2 + n);
+		if (g != 0)
+		{
+			break;
+		}
 		n++;
 	}
 	return (g);
