@@ -3,7 +3,7 @@
  * _strcmp - This function compares two strings.
  * Return: a integer giving the gap between strings
  * @s1: first string
- * @S2: second string
+ * @2: second string
  */
 int _strcmp(char *s1, char *s2)
 {
