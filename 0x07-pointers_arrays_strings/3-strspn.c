@@ -22,16 +22,17 @@ unsigned int _strspn(char *s, char *accept)
 				{
 					ts = 0;
 					g++;
+					n++;
 					break;
 				}
 				m++;
 			}
-		n++;
 		} while (ts == 0);
 		if (g != 0)
 		{
 			break;
 		}
+		n++;
 	}
 	return (g);
 }
