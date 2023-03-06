@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 	n = 0;
 	while (*(s + n) != '\0')
 	{
-		if (*(s + n) != c)
+		if (*(s + n) == c)
 		{
 			pos = (s + n);
 			break;
