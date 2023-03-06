@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strchr - calculate length of a string
  * @s: string to look up
@@ -8,9 +9,7 @@
 char *_strchr(char *s, char c)
 {
 	int n;
-	char *pos;
-
-	pos = NULL;
+	char *pos = NULL;
 
 	n = 0;
 	while (*(s + n) != '\0')
