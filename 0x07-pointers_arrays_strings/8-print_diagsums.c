@@ -3,6 +3,7 @@
 /**
  * print_diagsums - fucntion that print a string
  * @a: array to print
+ * @size: size of the table
  */
 void print_diagsums(int *a, int size)
 {
