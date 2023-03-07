@@ -30,6 +30,10 @@ char *_strstr(char *haystack, char *needle)
 		}
 		n++;
 	}
+	if (*haystack == *needle)
+	{
+		pos = haystack;
+	}
 	return (pos);
 }
 
