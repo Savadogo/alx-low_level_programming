@@ -21,7 +21,7 @@ char *_strchr(char *s, char c)
 		}
 		n++;
 	}
-	if (*s == '\0')
+	if (*s == c)
 	{
 		pos = s;
 	}
