@@ -12,9 +12,9 @@ void print_diagsums(int *a, int size)
 	diag2 = 0;
 	for (i = 0; i < size; i++)
 	{
-		diag1 += *(*(a + i) + i);
-		diag2 += *(*(a + size - i - 1) + i size - i - 1);
+		diag1 = diag1 + a[i * size + i];
+		diag2 = diag2 + a[size * (1 + i) - i - 1];
 	}
-	printf("%i, %i", diag1, diag2);
+	printf("%i, %i\n", diag1, diag2);
 }
 
