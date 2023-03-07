@@ -21,5 +21,9 @@ char *_strchr(char *s, char c)
 		}
 		n++;
 	}
+	if (*s == '\0')
+	{
+		pos = s;
+	}
 	return (pos);
 }
