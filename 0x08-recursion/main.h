@@ -1,6 +1,6 @@
 int _putchar(char c);
 void _puts_recursion(char *s);
-char *_memcpy(char *dest, char *src, unsigned int n);
+void _print_rev_recursion(char *s);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
