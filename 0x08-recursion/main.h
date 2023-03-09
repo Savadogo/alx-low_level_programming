@@ -5,6 +5,6 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
-void print_chessboard(char (*a)[8]);
+int is_prime_number(int n);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
