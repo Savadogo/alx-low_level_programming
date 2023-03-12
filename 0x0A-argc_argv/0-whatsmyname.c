@@ -5,9 +5,9 @@
  * @argc: number of arguments
  * @argv: list of arguments
  */
-int main(int argc, char *argv[])
+int __attribute__((unused)) main(int argc, char *argv[])
 {
+	argc = argc;
 	puts(*argv);
 	return (0);
 }
-
