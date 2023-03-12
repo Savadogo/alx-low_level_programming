@@ -4,11 +4,8 @@
  * @s: string
  * Return: pointer to dest
  */
-int _atoi(char *s);
+int _atoi(char *s)
 {
-	int i;
-
-	i = 0;
-	return (i);
+	return (*s);
 }
 
