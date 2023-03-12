@@ -1,21 +1,14 @@
 #include "main.h"
 /**
- * _strcpy - copy string
- * @dest: destination
- * @src: source
+ * _atoi - atoi
+ * @s: string
  * Return: pointer to dest
  */
-char *_strcpy(char *dest, char *src)
+int _atoi(char *s);
 {
 	int i;
 
 	i = 0;
-	while (*(src + i) != '\0')
-	{
-		*(dest + i) = *(src + i);
-		i++;
-	}
-	*(dest + i) = *(src + i);
-	return (dest);
+	return (i);
 }
 
