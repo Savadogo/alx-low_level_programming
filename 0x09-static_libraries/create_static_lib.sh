@@ -1,6 +1,3 @@
 #!/bin/bash
-
-for file in *.c; do
-	gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main.c "$file" -o "${file%.c}.o"
-done
-
+gcc -c *.c
+ar -rc liball.a *.o
