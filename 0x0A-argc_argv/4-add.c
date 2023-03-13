@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 			else
 			{
 				puts("Error");
-				return (0);
+				return (1);
 			}
 		}
 		printf("%d\n", agg);
