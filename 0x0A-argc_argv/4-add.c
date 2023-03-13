@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		agg = 0;
 		for (i = 1; i < argc; i++)
 		{
-			long unsigned int j;
+			iunsigned long j;
 
 			for (j = 0; j < strlen(argv[i]); j++)
 			{
