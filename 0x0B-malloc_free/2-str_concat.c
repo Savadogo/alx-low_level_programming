@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _str_concat -s1, followed by the contents of s2, and null terminated
+ * str_concat -s1, followed by the contents of s2, and null terminated
  * Return: a pointer to the allocated memory
  * @s1: first string
  * @s2: second string
