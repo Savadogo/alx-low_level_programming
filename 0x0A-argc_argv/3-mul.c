@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point
  * Return: 0
@@ -16,8 +17,8 @@ int main(int argc, char *argv[])
 	{
 		int x, y;
 
-		x = *argv[1];
-		y = *argv[2];
+		x = atoi(*(argv + 1));
+		y = atoi(*(argv + 2));
 		printf("%d\n", x * y);
 	}
 	return (0);
