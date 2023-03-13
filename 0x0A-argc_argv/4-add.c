@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 /**
  * main - entry point
  * Return: 0
@@ -20,15 +22,17 @@ int main(int argc, char *argv[])
 		agg = 0;
 		for (i = 1; i < argc; i++)
 		{
-			if (atoi(*(argv + i)) != 0)
+			long unsigned int j;
+
+			for (j = 0; j < strlen(*(argv + i)); j++)
 			{
-				agg += atoi(*(argv + i));
+				if (~isdigit(*(argv + i)[j]))
+				{
+					puts("Error");
+					return (1);
+				}
 			}
-			else
-			{
-				puts("Error");
-				return (1);
-			}
+			agg += atoi(*(argv + i));
 		}
 		printf("%d\n", agg);
 	}
