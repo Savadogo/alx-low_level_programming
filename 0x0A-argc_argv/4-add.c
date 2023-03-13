@@ -26,7 +26,8 @@ int main(int argc, char *argv[])
 
 			for (j = 0; j < strlen(*(argv + i)); j++)
 			{
-				if (~isdigit(*(argv + i)[j]))
+				putchar(*(argv + i)[j]);
+				if (*(argv + i)[j] <= 0 || *(argv + i)[j] >= '9')
 				{
 					puts("Error");
 					return (1);
