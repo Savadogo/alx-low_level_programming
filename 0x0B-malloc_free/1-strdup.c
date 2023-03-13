@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * _strdup - allocates a string to a ponter
  * Return: a pointer to the allocated memory
@@ -16,7 +17,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	a = malloc(size * strlen(str));
+	a = malloc(strlen(str));
 	if (a == NULL)
 	{
 		return (NULL);
